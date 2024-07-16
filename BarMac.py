@@ -5,7 +5,9 @@ import re
 import sys
 
 def generate_random_mac():
-    mac = [0x00, 0x16, 0x3e,
+    mac = [random.randint(0x00, 0xff),
+           random.randint(0x00, 0xff), 
+           random.randint(0x00, 0xff),
            random.randint(0x00, 0x7f),
            random.randint(0x00, 0xff),
            random.randint(0x00, 0xff)]
