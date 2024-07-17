@@ -3,6 +3,7 @@ I use a variety of tools for these operations that can be much more efficient bu
 Didn't want to be a script kiddo so here you will see my tools. Enjoy :)
 
 BarMac.py = Mac changer with that comes with parameters:
+            
             -h: Shows the parameters
             -s: Displays the current mac address
             -i: Interface that is used
@@ -10,6 +11,7 @@ BarMac.py = Mac changer with that comes with parameters:
             -m: Assigns a new mac address
             
 BarNet.py = Net scanner that scans the network and displays the devices. Comes with the parameters:
+            
             -h: Shows the parameters
             -r: The IP address range to scan
             -c: Amount of packets to be sent
